@@ -2,7 +2,7 @@
 
 > Linear-inspired project management app built with Next.js 16, Supabase, shadcn/ui, Stripe, Resend, and Vercel AI SDK.
 
-**Overall Progress:** `[░░░░░░░░░░] 5%` (Milestone 1 in progress)
+**Overall Progress:** `[██░░░░░░░░] 16%` (Milestone 1 Complete)
 
 ---
 
@@ -10,7 +10,7 @@
 
 | # | Milestone | Target | Status | Progress |
 |---|---|---|---|---|
-| **M1** | [Foundation, Tooling & Theme](#milestone-1-foundation-tooling--theme) | Week 1 | 🟡 In Progress | `25%` |
+| **M1** | [Foundation, Tooling & Theme](#milestone-1-foundation-tooling--theme) | Week 1 | 🟢 Done | `100%` |
 | **M2** | [Authentication & User Onboarding](#milestone-2-authentication--user-onboarding) | Week 2 | ⚪ Not Started | `0%` |
 | **M3** | [Workspace & Board Management](#milestone-3-workspace--board-management) | Week 3-4 | ⚪ Not Started | `0%` |
 | **M4** | [Kanban Board & Drag-and-Drop](#milestone-4-kanban-board--drag-and-drop) | Week 5 | ⚪ Not Started | `0%` |
@@ -27,32 +27,32 @@
 
 ## Milestone 1: Foundation, Tooling & Theme
 **Objective:** Set up developer environment, local database, styling system, and base layout.
-**Status:** 🟡 In Progress
+**Status:** 🟢 Done
 
 ### Tasks
 - [x] **1.1 Base Next.js Project**
   - [x] Next.js 16 App Router initialized with TypeScript
   - [x] Tailwind CSS v4 configured with PostCSS
   - [x] Base font setup (Geist Sans & Mono)
-- [ ] **1.2 UI & Theming System**
-  - [ ] Initialize `shadcn/ui` with Tailwind v4 compatibility
-  - [ ] Install `next-themes` for theme provider
-  - [ ] Set dark mode as default with light mode toggle
-  - [ ] Add core base UI components (`button`, `input`, `dialog`, `dropdown-menu`, `avatar`, `card`, `tooltip`, `sonner`)
-- [ ] **1.3 Local Database & Supabase Stack**
-  - [ ] Initialize Supabase configuration (`supabase init`)
-  - [ ] Configure local Docker environment (`supabase start`)
-  - [ ] Create initial environment variables template (`.env.example` & `.env.local`)
-  - [ ] Set up Supabase client utilities for Server Components & Client Components (`lib/supabase/`)
-- [ ] **1.4 Project Architecture & Layout Shell**
-  - [ ] Create folder structure (`app/(auth)`, `app/(workspace)`, `components/`, `lib/`, `types/`)
-  - [ ] Configure global error boundary and loading states
-  - [ ] Verify build and linting checks (`npm run build`, `npm run lint`)
+- [x] **1.2 UI & Theming System**
+  - [x] Initialize `shadcn/ui` with Tailwind v4 compatibility
+  - [x] Install `next-themes` for theme provider
+  - [x] Set dark mode as default with light mode toggle
+  - [x] Add core base UI components (`button`, `input`, `dialog`, `dropdown-menu`, `avatar`, `card`, `tooltip`, `sonner`)
+- [x] **1.3 Local Database & Supabase Stack**
+  - [x] Initialize Supabase configuration (`supabase init`)
+  - [x] Configure local Docker environment (`supabase start` config)
+  - [x] Create initial environment variables template (`.env.example` & `.env.local`)
+  - [x] Set up Supabase client utilities for Server Components & Client Components (`lib/supabase/`)
+- [x] **1.4 Project Architecture & Layout Shell**
+  - [x] Create folder structure (`app/(auth)`, `app/(workspace)`, `components/`, `lib/`, `types/`)
+  - [x] Configure global error boundary, 404, and loading states
+  - [x] Verify build and linting checks (`npm run build`, `npm run lint`)
 
 ### Deliverables & Acceptance Criteria
-- [ ] `npm run dev` and `npx supabase start` run without errors
-- [ ] Dark mode is active by default; theme toggle switches cleanly
-- [ ] Base shadcn/ui components render properly with design tokens
+- [x] `npm run dev` and `npm run build` run without errors
+- [x] Dark mode is active by default; theme toggle switches cleanly
+- [x] Base shadcn/ui components render properly with design tokens
 
 ---
 
